@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #320F34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login__container {
+    background-color: #fff;
+    width: 40%;
+    padding: 30px 50px;
+}
+
+.login__container .top__login {
+    display: flex;
+}
+
+.login__container .top__login h3 {
+    width: 100%;
+    background-color: #734D76;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login__container form .text__box {
+    position: relative;
+    margin-bottom: 30px;
+    padding-right: 10px;
+}
+
+.login__container form .text__box input {
+    width: 100%;
+    padding: 10px;
+    background: #f0eef0;
+    border: none;
+    outline: none;
+    color: #999999;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.login__container form .text__box i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999999;
+}
+
+.login__container form .button {
+    width: 100%;
+    text-align: center;
+    background: #724d75;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+
+.login__container form .lost__password {
+    display: block;
+    margin-top: 15px;
+    color: #764f78;
+    text-decoration: none;
+    text-align: center;
+}
